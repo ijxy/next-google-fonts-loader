@@ -1,0 +1,53 @@
+{
+  "name": "next-google-fonts-loader",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "googlefonts",
+    "google",
+    "fonts",
+    "next",
+    "vercel",
+    "og"
+  ],
+  "homepage": "https://github.com/jxdp/next-google-fonts-loader",
+  "bugs": {
+    "url": "https://github.com/jxdp/next-google-fonts-loader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxdp/next-google-fonts-loader.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "jxdp",
+    "url": "https://github.com/jxdp"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "eslint . --ext ts,js,json --fix",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "dependencies": {
+    "google-fonts-file-loader": "^1.0.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^18",
+    "eslint": "^8",
+    "eslint-config-tip": "^1",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "next": ">=13.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
