@@ -10,18 +10,18 @@
     "vercel",
     "og"
   ],
-  "homepage": "https://github.com/jxdp/next-google-fonts-loader",
+  "homepage": "https://github.com/ijxy/next-google-fonts-loader",
   "bugs": {
-    "url": "https://github.com/jxdp/next-google-fonts-loader/issues"
+    "url": "https://github.com/ijxy/next-google-fonts-loader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jxdp/next-google-fonts-loader.git"
+    "url": "git+https://github.com/ijxy/next-google-fonts-loader.git"
   },
   "license": "MIT",
   "author": {
-    "name": "jxdp",
-    "url": "https://github.com/jxdp"
+    "name": "ijxy",
+    "url": "https://github.com/ijxy"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,7 +34,7 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "dependencies": {
-    "google-fonts-file-loader": "^1.0.2"
+    "google-fonts-file-loader": "^1.0.4"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.6",
